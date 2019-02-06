@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.App {
+  max-width: 600px;
+  margin: 10px auto;
+  border: 1px solid #76D3DE;
+  background-color: #fbfbfb;
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 12px;
+}
+
+.App h1 {
+  font: 800 60px/100% 'Montserrat', sans-serif;
+  margin: 0;
+  text-transform: none;
+  color: #444;
+}
+
+.App form {
+  margin: 20px 0;
+}
+
+.App input {
+  border: 1px solid #00BCD1;
+  padding: 5px;
+  margin-right: 3px;
+  border-radius: 5px 0 0 5px;
+  width: 250px;
+}
+
+.App button {
+  box-shadow: none;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.App ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App ul li {
+  border-bottom: 1px solid #dedede;
+  padding: 10px 20px;
+}
+
+.App ul li button {
+  border-radius: 5px 0 0 5px;
+  margin-right: 7px;
+}
+
+.App ul li:last-child {
+  border-bottom: none;
+}

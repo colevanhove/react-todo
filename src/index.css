@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 15px;
+  background: rgba(174,232,251,1);
+  background: -moz-linear-gradient(-45deg, rgba(174,232,251,1) 0%, rgba(174,232,251,1) 1%, rgba(112,198,224,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(174,232,251,1)), color-stop(1%, rgba(174,232,251,1)), color-stop(100%, rgba(112,198,224,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(174,232,251,1) 0%, rgba(174,232,251,1) 1%, rgba(112,198,224,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(174,232,251,1) 0%, rgba(174,232,251,1) 1%, rgba(112,198,224,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(174,232,251,1) 0%, rgba(174,232,251,1) 1%, rgba(112,198,224,1) 100%);
+  background: linear-gradient(135deg, rgba(174,232,251,1) 0%, rgba(174,232,251,1) 1%, rgba(112,198,224,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee8fb', endColorstr='#70c6e0', GradientType=1 );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
